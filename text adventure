@@ -1,0 +1,27 @@
+start = '''
+You down a dark alley one night, and you are kidnapped. The person who kidnapped,
+you threw you into the lake. When you finally woke up, you were in a rainforest.
+You were stranded with no people, food, or water
+'''
+
+print(start)
+
+
+print("Type 'left' to go left or 'right' to go right.")
+user_input = input()
+if user_input == "left":
+    print("You decide to go left. As you turn left, you see a dark shadow and walk towards it. Then you realize that you're stepping inside of a large dinosaur footprint. You feel like someone's watching every step you take, and as soon as you turn around,the dinosaur is right in front of you. Do you run or fight?") # finished the story by writing what happens
+    user_input = input()
+    if user_input== "run":
+        print("Out of terror, you begin to run. Running fastly, you fall into the cliff that is in front of you. ")
+    user_input= input()
+    if user_input== "fight":
+        print(" You Win!")
+if user_input == "right":
+    print("You come across a beautiful, luxurious bridge. You hugrily go and look for food. After hours of searching, you finally find food by an old creepy lady. Do you starve to death or eat the food?")
+    user_input = input()
+    if user_input == "starve to death":
+        print("a nearby helicopter rescues you and saves your life")
+    user_input = input()
+    if user_input=="eat the food":
+        print("You die!")
